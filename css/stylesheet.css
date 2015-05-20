@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000; 
+    background:url(http://www.hdnepal.net/DSC5744.jpg) center center no-repeat fixed;
+    width:100%;
+    overflow:hidden;
+}
+#pageWrapper{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+#nav {
+    height:1px;
+    margin:0;
+    padding:0;
+    background-color:#000000;
+    position:relative;
+}
+
+#canvas {
+	display: block;
+}
+a {
+    text-decoration:none;
+}
+#mid-container{
+    background-color:white;
+    opacity:.8;
+    height:90px;
+    width:400px;
+    border: 1px solid;
+    border-radius: 10px;
+    position:relative;
+    left:37%;
+    top:370px;
+}
+#title {
+    width:300px;
+    text-align:center;
+    position:relative;
+    color:#FFFFFF;
+    top:-90px;
+    left:100px;
+}
+
+#flag{
+    position:relative;
+    padding-left:7px;
+}
+
+
+#lists{
+    padding: 0px;
+    margin: 0px;
+    text-align:center;
+}
+
+#col1{
+    width:45%;
+    height:relative;
+    background-color:#FFFFFF;
+    position:relative;
+    left:10px;
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+.col1{
+    color:blue;
+    border-style:solid;
+    border-width:5px;
+    
+}
+
+p{
+    text-align: center;
+}
+
+#col2{
+    width:45%;
+    background-color:#FFFFFF;
+    float:right;
+    border: 2px solid;
+    border-radius: 10px;
+    position:relative;
+    right:10px;
+    top:-73px;
+}
+    
+#footer{
+    color:#000000;
+    text-shadow: 2px 2px #000000;
+    float:right;
+    position:relative;
+    top:520px;
+}
+
+    /* mobile styles */
+@media handheld {
+       
+	html, body {
+		font: 12px/15px sans-serif;
+		background: url(http://www.hdnepal.net/DSC5744.jpg);
+		padding: 0;
+		color: #000000;
+		margin: 0;
+		}
+	#sidebar, #footer {
+		display: none;
+		}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		}
+	#content img { 
+		max-width: 100%;
+		}
+	.center {
+		width: 100% !important;
+		text-align: center;
+		}
+	a:link, a:visited {
+		text-decoration: underline;
+		color: #0000CC;
+		}
+	a:hover, a:active {
+		text-decoration: underline;
+		color: #660066;
+		}
+
+}
+/* iPhone-specific styles */
+@media only screen and (max-device-width: 480px) { 
+
+	html {
+		-webkit-text-size-adjust: none;
+		}
+
+}
